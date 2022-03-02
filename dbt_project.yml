@@ -1,7 +1,6 @@
 name: dbtvault_snowflake_demo
 profile: dbtvault_snowflake_demo
-version: '5.2.0'
-require-dbt-version: ['>=0.20.0', '<0.22.0']
+version: '1.0.0'
 config-version: 2
 
 analysis-paths:
@@ -27,12 +26,12 @@ models:
     raw_stage:
       tags:
         - 'raw'
-      materialized: view
+      materialized: table
     stage:
       tags:
         - 'stage'
       enabled: true
-      materialized: view
+      materialized: table
     raw_vault:
       tags:
         - 'raw_vault'
