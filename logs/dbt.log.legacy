@@ -12646,3 +12646,12 @@ SELECT * FROM records_to_insert
 2022-03-02 15:19:05.430924 (Thread-564): handling status request
 2022-03-02 15:19:05.431296 (Thread-564): 15:19:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4fe95458-3111-4a7d-884c-ef217a443f3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b180fbbb0>]}
 2022-03-02 15:19:05.431783 (Thread-564): sending response (<Response 1244 bytes [200 OK]>) to 10.0.41.177
+2022-03-02 15:19:12.565610 (Thread-565): 15:19:12  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-02 15:19:12.565887 (Thread-565): 15:19:12  Partial parsing enabled, no changes found, skipping parsing
+2022-03-02 15:19:12.572780 (Thread-565): 15:19:12  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4fe95458-3111-4a7d-884c-ef217a443f3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7af86d2a90>]}
+2022-03-02 15:19:14.088356 (Thread-566): handling status request
+2022-03-02 15:19:14.088731 (Thread-566): 15:19:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4fe95458-3111-4a7d-884c-ef217a443f3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b180fbf40>]}
+2022-03-02 15:19:14.089214 (Thread-566): sending response (<Response 1244 bytes [200 OK]>) to 10.0.41.177
+2022-03-02 15:19:14.227190 (Thread-567): handling status request
+2022-03-02 15:19:14.227571 (Thread-567): 15:19:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4fe95458-3111-4a7d-884c-ef217a443f3c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b18193280>]}
+2022-03-02 15:19:14.228079 (Thread-567): sending response (<Response 1244 bytes [200 OK]>) to 10.0.41.177
