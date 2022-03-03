@@ -19,19 +19,20 @@ target-path: target
 
 vars:
   load_date: '1992-01-08'
-  tpch_size: 10 #1, 10, 100, 1000, 10000
+  tpch_size: 1 #1, 10, 100, 1000, 10000
+  hash: SHA
 
 models:
   dbtvault_snowflake_demo:
     raw_stage:
       tags:
-        - 'raw'
+        - 'pstg'
       materialized: table
     stage:
       tags:
-        - 'stage'
+        - 'hash_view'
       enabled: true
-      materialized: table
+      materialized: view
     raw_vault:
       tags:
         - 'raw_vault'

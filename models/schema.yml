@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: tpch_sample
-    database: SNOWFLAKE_SAMPLE_DATA
-    schema: TPCH_SF{{ var('tpch_size', 10) }}
+    database: DBT_RAW
+    schema: TPCH_SF{{ var('tpch_size', 1) }}
     tables:
       - name: LINEITEM
       - name: CUSTOMER
